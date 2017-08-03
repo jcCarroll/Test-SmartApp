@@ -71,7 +71,7 @@ def initialize() {
 	// The subscribe method accepts three parameters
     // The thing we want to subscribe to
     // The specific attribute and its state we care about
-    // The name of hte method that should be called when this event happens
+    // The name of the method that should be called when this event happens
 	subscribe(themotion, "motion.active", motionDetectedHandler)
     subscribe(themotion, "motion.inactive", motionStoppedHandler)
 }
